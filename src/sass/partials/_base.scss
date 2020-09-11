@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	background-color: $gray-very-light;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Lato', sans-serif;
+}
+
+.nav-tabs .nav-link {
+	color: $primary;
+	border: none;
+
+	&:hover {
+		color: $primary;
+		background-color: $white;
+	}
+}
+
+footer {
+	margin-top: 100px;
+	background-color: $nav-footer;
+	color: $dark-gray;
+}
+
+.footer-icons {
+	width: 30px;
+	margin: 0 10px;
+}

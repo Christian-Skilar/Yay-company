@@ -1,0 +1,17 @@
+h2 {
+	color: $primary;
+	font-family: 'Playfair Display', serif;
+}
+
+.navbar-brand {
+	color: $primary !important;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 25px;
+	margin-right: 50px;
+}
+
+p {
+	color: $dark-gray;
+}

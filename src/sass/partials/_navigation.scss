@@ -1,0 +1,52 @@
+.navbar {
+	background-color: $nav-footer;
+}
+
+.mr-sm-2,
+.mx-sm-2 {
+	margin-right: 0 !important;
+	border: none;
+	border-radius: 5px 0 0 5px;
+	height: 35px;
+	font-size: 12px;
+}
+
+.src-btn {
+	border: none;
+	background-color: $primary;
+	color: $white;
+	border-radius: 0 5px 5px 0;
+	height: 35px;
+	font-size: 12px;
+}
+
+.nav-link.active {
+	background-color: $white;
+	border-radius: 5px;
+	border: none;
+}
+
+.form-inline {
+	flex-flow: row;
+}
+
+.form-control {
+	width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: $dark;
+	font-size: 14px;
+	padding: 7px 20px;
+	margin-right: 10px;
+}
+
+.navbar-light .navbar-toggler {
+	border: none;
+}
+
+@media (min-width: 576px) {
+	.form-inline .form-control {
+		width: 100%;
+	}
+}
